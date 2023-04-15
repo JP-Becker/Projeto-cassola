@@ -1,9 +1,16 @@
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
+import { GlobalStyle } from "./GlobalStyle/GlobalStyle";
 
 function App() {
   return (
-    <div>
-      <h1>test</h1>
-    </div>
+    <>
+      <GlobalStyle />
+      <Header />
+      <Main />
+      <Footer />
+    </>
   );
 }
 
