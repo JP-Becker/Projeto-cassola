@@ -2,7 +2,7 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Footer from "./components/Footer/Footer";
 import ContactForm from "./components/ContactForm/ContactForm";
-import { GlobalStyle } from "./GlobalStyle/GlobalStyle";
+import { WhatsApp } from "./components/WhatsApp/WhatsApp";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       {/* <GlobalStyle /> */}
       <Header />
       <Main />
-      <ContactForm />
+      <WhatsApp />
       <Footer />
     </>
   );
